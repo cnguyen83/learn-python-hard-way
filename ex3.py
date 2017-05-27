@@ -2,13 +2,15 @@
 print "I will now count my chickens:"
 
 # Print hens and roosters. / * % go first
-print "Hens", 25 + 30 / 6 # 30
+print "Hens", 25.0 + 30.0 / 6.0 # 30
 print "Roosters", 100 - 25 * 3 % 4 # 97
 
 # Print eggs. % / left to right.
 print "Now I will count the eggs:"
 
 print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6 # 7
+
+print "Partial eggs:", 3 + 2 + 1 - 5 + 4 %2 - 1.0 / 4 + 6
 
 # Print comparison booleans
 print "Is it true that 3 + 2 < 5 -7?"
