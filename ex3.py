@@ -10,7 +10,7 @@ print "Now I will count the eggs:"
 
 print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6 # 7
 
-print "Partial eggs:", 3 + 2 + 1 - 5 + 4 %2 - 1.0 / 4 + 6
+print "Partial eggs:", 3 + 2 + 1 - 5 + 4 % 2 - 1.0 / 4 + 6
 
 # Print comparison booleans
 print "Is it true that 3 + 2 < 5 -7?"
@@ -25,6 +25,7 @@ print "Oh, that's why it's False."
 
 print "How about some more."
 
+# Print more comparison booleans
 print "Is it greater?", 5 > -2 # True
 print "Is it greater or equal?", 5 >= -2 # True
 print "Is it less or equal?", 5 <= 2 # False
