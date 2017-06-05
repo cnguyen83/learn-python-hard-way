@@ -12,6 +12,8 @@ print formatter % (formatter, formatter, formatter, formatter)
 # while the other lines will print with single quotes.
 # Probably because the third line uses a single quote
 # within the string itself.
+# %r specifically is used for debugging,
+# so it tries to print things as efficiently as possible.
 print formatter % (
     "I had this thing.",
     "That you could type up right.",
