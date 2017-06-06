@@ -12,7 +12,8 @@ weight = raw_input()
 # using %r so it keeps all the debugging format as is.
 # Notice that if height is entered in n'm" format
 # %r will print the \ to escape the single quote.
-print "So, you're %r old, %r tall and %r heavy." % (age, height, weight)
+print "So, you're %r old, %r tall and %r heavy." % (
+    age, height, weight)
 
 # Repeat the same
 # but convert age and weight to int.
@@ -27,4 +28,5 @@ print "How much do you weight?",
 weight = int(raw_input())
 
 
-print "So, you're %r old, %r tall and %r heavy." % (age, height, weight)
+print "So, you're %r old, %r tall and %r heavy." % (
+    age, height, weight)
